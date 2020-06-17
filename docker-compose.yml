@@ -6,7 +6,7 @@ services:
   jupyter:
     image: matteobolner/bdp2_covid_tracker:latest
     ports:
-      - "8000:8000"
+      - "8888:8888"
     volumes:
       - /home/pelmo/repos/bdp2_covid_tracker/.work/:/home/jovyan/work
   
