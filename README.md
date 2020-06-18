@@ -6,5 +6,5 @@ An application stack consisting of a jupyter notebook retrieving COVID-19 data f
 DockerHub repo:
 https://hub.docker.com/repository/docker/matteobolner/bdp2_covid_tracker  
 
-docker_command.txt contains an obsolete command, used to build locally a single jupyter notebook image;  
+**docker_command.txt** contains an obsolete command, used to build locally a single jupyter notebook image;  
 docker-compose.yml is used by docker-compose to build the application stack
