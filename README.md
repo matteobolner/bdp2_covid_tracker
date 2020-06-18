@@ -22,5 +22,5 @@ The dockerhub repo is linked with this GitHub repository, triggering an autobuil
 - Clone the repository
 - Edit the docker-compose.yml file, modifying the paths linking the docker volumes to the local directories according to the system
 - Build the stack with *docker-compose up -d*
-- Access the portainer image with *ip_address*:9000
+- Access portainer with *ip_address*:9000
 - Check the jupyter image logs to obtain the link to the notebook
