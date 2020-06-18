@@ -15,3 +15,11 @@ Repository structure:
 **.docker** --> contains the Dockerfile used to build the image available on DockerHub, based on the official Jupyter notebook minimal image, with the addition of the python plotting library Matplotlib
 
 **.work** --> contains the actual Jupyter notebook for the data analysis
+
+
+## How to build and use the application stack:  
+- Clone the repository
+- Edit the docker-compose.yml file, modifying the paths linking the docker volumes to the local directories according to the system
+- Build the stack with *docker-compose up -d*
+- Access the portainer image with *ip_address*:9000
+- Check the jupyter image logs to obtain the link to the notebook
