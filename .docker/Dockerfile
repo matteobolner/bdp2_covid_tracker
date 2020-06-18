@@ -22,11 +22,11 @@ RUN apt-get update && apt-get install -yq --no-install-recommends \
     lmodern \
     netcat \
     python-dev python3-pip python3-numpy python3-scipy python3-matplotlib \
-    python3-numpy\
+    python3-numpy \
     # ---- nbconvert dependencies ----
     texlive-xetex \
     texlive-fonts-recommended \
-    texlive-generic-recommended \
+    # texlive-generic-recommended \
     # Optional dependency
     texlive-fonts-extra \
     # ----
