@@ -12,6 +12,6 @@ Repository structure:
 
 **docker-compose.yml** --> used by docker-compose to build the application stack  
 
-**.docker** --> contains the Dockerfile used to build the image available on DockerHub, based on the official Jupyter notebook minimal image  
+**.docker** --> contains the Dockerfile used to build the image available on DockerHub, based on the official Jupyter notebook minimal image, with the addition of the python plotting library Matplotlib
 
 **.work** --> contains the actual Jupyter notebook for the data analysis
