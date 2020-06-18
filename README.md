@@ -7,7 +7,11 @@ DockerHub repo:
 https://hub.docker.com/repository/docker/matteobolner/bdp2_covid_tracker  
 
 Repository structure:  
+
 **docker_command.txt** --> contains an obsolete command, used in the beginning to build locally a single jupyter notebook image  
+
 **docker-compose.yml** --> used by docker-compose to build the application stack  
+
 **.docker** --> contains the Dockerfile used to build the image available on DockerHub, based on the official Jupyter notebook minimal image  
+
 **.work** --> contains the actual Jupyter notebook for the data analysis
