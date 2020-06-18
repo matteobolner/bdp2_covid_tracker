@@ -5,8 +5,9 @@ An application stack consisting of a jupyter notebook retrieving COVID-19 data f
 
 DockerHub repo:
 https://hub.docker.com/repository/docker/matteobolner/bdp2_covid_tracker  
+The dockerhub repo is linked with this GitHub repository, triggering an autobuild whenever changes are pushed.
 
-Repository structure:  
+### Repository structure:  
 
 **docker_command.txt** --> contains an obsolete command, used in the beginning to build locally a single jupyter notebook image  
 
