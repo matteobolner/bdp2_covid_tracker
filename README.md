@@ -1,4 +1,4 @@
-# bdp2_covid_tracker
+# covid_tracker
 Repository for the hands-on on covid-19 data using docker and jupyter notebooks
 
 An application stack consisting of a jupyter notebook retrieving COVID-19 data from the Protezione Civile department's GitHub repo, and Portainer to monitor it. The jupyter notebook container is enabled for https access.
